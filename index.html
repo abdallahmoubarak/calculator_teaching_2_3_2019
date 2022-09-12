@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Calc</title>
   </head>
   <body>
-    <div id="main">
-      <div id="brand">CASIO</div>
-      <input id="input" value="0" type="number" disabled />
-      <div id="container">
-        <div id="num">
+    <div class="main">
+      <div class="brand">CASIO</div>
+      <input class="input" value="0" type="number" disabled />
+      <div class="container">
+        <div class="num">
           <div>
             <button onclick="cl(1)">1</button>
             <button onclick="cl(2)">2</button>
@@ -33,12 +34,12 @@
             <button onclick="cl('^')">^</button>
           </div>
         </div>
-        <div id="operation">
-          <button id="plus" onclick="cl('+')">+</button>
-          <button id="min" onclick="cl('-')">-</button>
-          <button id="mult" onclick="cl('×')">×</button>
-          <button id="div" onclick="cl('/')">/</button>
-          <button id="eq" onclick="cl('=')">=</button>
+        <div class="operation">
+          <button class="plus" onclick="cl('+')">+</button>
+          <button class="min" onclick="cl('-')">-</button>
+          <button class="mult" onclick="cl('×')">×</button>
+          <button class="div" onclick="cl('/')">/</button>
+          <button class="eq" onclick="cl('=')">=</button>
         </div>
       </div>
     </div>
