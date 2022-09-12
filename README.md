@@ -1,2 +1,5 @@
-# created_calculator_teaching_2_3_2019
-adding past project to the new repo
+# created_calculator_teaching 2/3/2019
+
+Adding past project to the new repo
+
+<img src='./src/screenshoot.png' alt=''/>
