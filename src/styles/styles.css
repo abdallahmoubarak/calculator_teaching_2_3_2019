@@ -1,9 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0rem;
+}
+
 .main {
   background: -webkit-linear-gradient(120deg, blue, #ac00ff);
   width: fit-content;
-  padding: 20px;
+  padding: 2rem;
   border-radius: 8px;
-  margin: auto;
 }
 .brand {
   color: white;

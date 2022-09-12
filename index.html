@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./src/styles/styles.css" />
     <title>Calc</title>
   </head>
   <body>
     <div class="main">
       <div class="brand">CASIO</div>
-      <input class="input" value="0" type="number" disabled />
+      <input class="input" id="input" value="0" type="number" disabled />
       <div class="container">
         <div class="num">
           <div>
@@ -35,13 +35,14 @@
           </div>
         </div>
         <div class="operation">
-          <button class="plus" onclick="cl('+')">+</button>
-          <button class="min" onclick="cl('-')">-</button>
-          <button class="mult" onclick="cl('×')">×</button>
-          <button class="div" onclick="cl('/')">/</button>
-          <button class="eq" onclick="cl('=')">=</button>
+          <button class="plus" id="plus" onclick="cl('+')">+</button>
+          <button class="min" id="min" onclick="cl('-')">-</button>
+          <button class="mult" id="mult" onclick="cl('×')">×</button>
+          <button class="div" id="div" onclick="cl('/')">/</button>
+          <button class="eq" id="eq" onclick="cl('=')">=</button>
         </div>
       </div>
     </div>
+    <script src="./src/js/index.js" type="text/javascript"></script>
   </body>
 </html>
